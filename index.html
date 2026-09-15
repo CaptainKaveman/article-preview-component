@@ -12,19 +12,9 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="reset.css" />
 
     <title>Frontend Mentor | Article preview component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -45,16 +35,20 @@
             felt slightly bare and uninviting. I've got some simple tips to help
             you make any room feel complete.
           </p>
-          <address class="author">
+          <address class="author" id="author">
             <img
               src="./images/avatar-michelle.jpg"
               alt=""
               class="author__img"
             />
-            <p class="author__name">Michelle Appleton</p>
-            <time datetime="2020-06-28" class="author__date">28 Jun 2020</time>
+            <div class="author__meta">
+              <p class="author__name">Michelle Appleton</p>
+              <time datetime="2020-06-28" class="author__date"
+                >28 Jun 2020</time
+              >
+            </div>
             <button class="author__share-btn" aria-label="Share this article">
-              Share
+              <embed src="./images/icon-share.svg" />
             </button>
           </address>
         </div>

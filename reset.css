@@ -73,3 +73,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* @media added by Kyle to adjust img tag per the project design criteria */
+@media screen and (min-width: 420px) {
+  img {
+    max-width: none;
+  }
+}
