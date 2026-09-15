@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(./assests/fonts/Manrope-VariableFont_wght.ttf) format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+  --color-white: hsl(0, 100%, 100%);
+  --color-gray-900: hsl(217, 19%, 35%);
+  --color-gray-500: hsl(214, 17%, 51%);
+  --color-gray-400: hsl(212, 23%, 69%);
+  --color-gray-200: hsl(210, 46%, 95%);
+
+  /* Typography */
+  --font-family: "Manrope", sans-serif;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+
+  --font-size-20: 1.25rem;
+  --font-size-13: 0.813rem;
+
+  --text-preset-1:
+    var(--font-weight-bold), var(--font-size-20)/1.3, var(--font-family);
+  --text-preset-2-medium:
+    var(--font-weight-medium), var(--font-size-13)/1.4, var(--font-family);
+  --text-preset-2-bold:
+    var(--font-weight-bold), var(--font-size-13)/1.4, var(--font-family);
+  --text-preset-3:
+    var(--font-weight-medium), var(--font-size-13)/1.4, var(--font-family);
+
+  --letter-spacing-1: 25%;
+  --letter-spacing-2: 25px;
+  --letter-spacing-3: 0.12%;
+
+  /* Spacing */
+  --spacing-0: 0px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-1300: 104px;
+  --spacing-2000: 160px;
+}
